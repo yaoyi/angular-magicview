@@ -17,7 +17,7 @@ also you could check this jquery plugin
 
 #### Demo
 
-
+http://codepen.io/yaoyi/pen/GryID/
 
 ##### basic setup
 
