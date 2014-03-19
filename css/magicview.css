@@ -1,0 +1,79 @@
+.magicview {
+  /*padding: 0px 5px;*/
+}
+
+.magicview .item {
+  display: inline-block;
+  position: relative;
+}
+
+.magicview .item img { 
+  position: relative;
+  display: block;
+  margin: 2px 3px 3px 2px; 
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -1px;
+}
+
+.magicview .item span {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  display:none;
+  cursor: pointer;
+}
+
+.magicview .item span i {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.magicview .item:hover span {
+  display: inline-block;
+  opacity: 0.6;
+}
+
+.magicview .item:hover span:hover {
+  opacity: 0.8;
+}
+
+.magicview .item span i.stack-top {
+  color: black;
+}
+
+.magicview .item span i.stack-bottom {
+  font-size: 1.5em;
+  top: 10px;
+}
+
+.magicview .item.ui-selected  img{
+  outline: 3px solid skyblue;
+}
+
+.magicview .item.ui-selected:hover span {
+  opacity: 1;
+}
+
+.magicview .item.ui-selected span {
+  display: inline-block;
+  opacity: 1;
+}
+
+.magicview .item.ui-selected span i.stack-top {
+  color: cornflowerblue;
+}
+
+.magicview .item.active .count {
+  display: block;
+}
+
+.magicview .item .count {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  background: red;
+  padding: 5px;
+}
