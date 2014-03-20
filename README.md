@@ -23,19 +23,20 @@ http://codepen.io/yaoyi/pen/GryID/
 
 1.include libraries:
 
-```
+```html
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
 ```
 
 2.include module
 
-```
+```html
 <script src="js/magicview.js"></script>
 ```
 
 3.add html codes
-```
+
+```html
 <html ng-app="demo">
 <body ng-controller="DemoCtrl">
     <div magicview class="magicview" data-items="items">
@@ -49,7 +50,7 @@ http://codepen.io/yaoyi/pen/GryID/
 
 4.add javascript codes, basically just add sample items for demo
 
-```
+```javascript
 <script type="text/javascript">
     var demo = angular.module('demo', ['ui.magicview'])
     demo.controller('DemoCtrl', ['$scope', function($scope){
