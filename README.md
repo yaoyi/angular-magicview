@@ -3,7 +3,7 @@ angular-magicview
 
 #### Intro
 
-google like image gallery, this module helps you algin image  both directions.
+google like image gallery, this module helps you align images in both directions.
 
 this module gets inspired from 
     
